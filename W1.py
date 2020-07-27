@@ -8,10 +8,10 @@ from selenium.webdriver.common.keys import Keys
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.support import expected_conditions as EC
 # from selenium.webdriver.common.by import By
-import pickle
+
 
 chrome_options = Options()
-chrome_options.headless = False
+chrome_options.headless = True
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument("user-agent=what")
 chrome_options.add_argument("user-data-dir=selenium") 
