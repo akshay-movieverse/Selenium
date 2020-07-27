@@ -8,23 +8,26 @@ from selenium.webdriver.common.keys import Keys
 # from selenium.webdriver.support.ui import WebDriverWait
 # from selenium.webdriver.support import expected_conditions as EC
 # from selenium.webdriver.common.by import By
+import os
 
 
-chrome_options = Options()
-chrome_options.headless = True
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument("user-agent=what")
-chrome_options.add_argument("user-data-dir=selenium") 
+chrome_options = webdriver.ChromeOptions()
+chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-dev-shm-usage")
+chrome_options.add_argument("--no-sandbox")
+#driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+#chrome_options.add_argument("user-data-dir=selenium") 
 curl="https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk6LAlSB#scrollTo=1oyhP-htn0J4"
 
 browsers = None
-import pickle
+
 
 
 
 def Initialize():
     global Instance
-    browsers = webdriver.Chrome('C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe',options=chrome_options)
+    browsers = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
     browsers.implicitly_wait(5)
     return browsers
 
