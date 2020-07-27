@@ -18,7 +18,7 @@ chrome_options.add_argument("--disable-dev-shm-usage")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("user-agent=VENOM")
 #driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
-#chrome_options.add_argument("user-data-dir=selenium") 
+chrome_options.add_argument("user-data-dir=selenium") 
 curl="https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk6LAlSB#scrollTo=1oyhP-htn0J4"
 
 browsers = None
@@ -56,7 +56,7 @@ def main():
             
         time.sleep(5)
         input_password=browser.find_element_by_id("password") 
-        input_password.send_keys("Gb12341234")
+        input_password.send_keys("Gb@12341234")
         
         next_button=browser.find_element_by_id("submit") 
         next_button.send_keys(Keys.ENTER)
