@@ -28,7 +28,7 @@ browsers = None
 
 def Initialize():
     global Instance
-    browsers = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+    browsers = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
     #browsers = webdriver.Chrome('C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe',options=chrome_options)
     browsers.implicitly_wait(5)
 
@@ -62,7 +62,7 @@ def main():
         next_button.send_keys(Keys.ENTER)
         
             
-        time.sleep(40)
+        time.sleep(20)
         
         print("Fucked")
         clickElement=browser.find_element_by_xpath("/html/body")
@@ -70,6 +70,9 @@ def main():
         clickElement.send_keys(Keys.CONTROL + Keys.F9 )
             
         time.sleep(30)
+        
+        ps = browser.page_source
+        print(ps)
             
         print("start")
         browser.switch_to.frame(browser.find_elements_by_tag_name('iframe')[1])
