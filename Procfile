@@ -1,1 +1,0 @@
-worker: python W1.py
