@@ -62,7 +62,7 @@ def main():
         next_button.send_keys(Keys.ENTER)
         
             
-        time.sleep(20)
+        time.sleep(40)
         
         print("Fucked")
         clickElement=browser.find_element_by_xpath("/html/body")
