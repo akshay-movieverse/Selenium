@@ -42,3 +42,15 @@ JavaScript warning: https://y6eozi5i7nc-496ff2e9c6d22116-0-colab.googleuserconte
 JavaScript warning: https://iopk1uvu2eg-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
 1596201483268	Marionette	INFO	Stopped listening on port 50432
 [Parent 14780, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1596202271447	geckodriver	INFO	Listening on 127.0.0.1:54384
+1596202281388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\Akshay\\AppData\\Local\\Temp\\rust_mozprofileOfjlS4"
+*** You are running in headless mode.
+1596202284792	Marionette	INFO	Listening on port 54398
+1596202284998	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://35rpq9gztn4-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://65timlvg28d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://35rpq9gztn4-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://65timlvg28d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://35rpq9gztn4-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1596202330848	Marionette	INFO	Stopped listening on port 54398
+[Parent 16040, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166

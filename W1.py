@@ -30,9 +30,10 @@ print("workin")
 time.sleep(10)
             
 
-# clickElement=browser.find_element_by_xpath("/html/body")
+clickElement=browser.find_element_by_xpath("/html/body")
                 
-# clickElement.send_keys(Keys.CONTROL + Keys.F9 )
+clickElement.send_keys(Keys.CONTROL + Keys.F9 )
+print("Success")
 time.sleep(2)
 browser.quit()
 
