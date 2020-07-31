@@ -27,17 +27,19 @@ browser.get("https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk
 print("workin")
 
 
-time.sleep(20)
+time.sleep(50)
             
 
 clickElement=browser.find_element_by_xpath("/html/body")
                 
 clickElement.send_keys(Keys.CONTROL + Keys.F9 )
-time.sleep(35)
-print(browser.page_source)
-clickElement=browser.find_element_by_xpath("/html/body/div[7]/div[2]/div[1]/div/colab-toolbar-button[1]")
+time.sleep(30)
+
+
+print(browser.current_url )
+#clickElement=browser.find_element_by_xpath("/html/body/div[7]/div[2]/div[1]/div/colab-toolbar-button[1]")
                 
-clickElement.click()
+#clickElement.click()
 
 time.sleep(10)
 print("Success")
