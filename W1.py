@@ -10,9 +10,9 @@ cap = DesiredCapabilities().FIREFOX
 cap["marionette"] = True
 
 options = Options()
-#options.headless = True
+options.headless = True
 #options.add_argument('--profile-directory=Default')
-#options.add_argument("--headless")
+options.add_argument("--headless")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--no-sandbox")
 
