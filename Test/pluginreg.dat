@@ -1,0 +1,13 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.19t|$
+Arch|x86_64-msvc|$
+
+[PLUGINS]
+
+[INVALID]
+C:\Program Files\VideoLAN\VLC\npvlc.dll|$
+1591286984000|$
+C:\Program Files (x86)\EagleGet\npEagleget.dll|$
+1512285748000|$

@@ -1,0 +1,33 @@
+1596190661046	geckodriver	INFO	Listening on 127.0.0.1:57039
+1596190672203	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Akshay\\AppData\\Local\\Temp\\rust_mozprofile0DLlDv"
+1596190673837	Marionette	INFO	Listening on port 57062
+1596190674421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://nouq40ofdpf-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://jf8icslg9l-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://nouq40ofdpf-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://jf8icslg9l-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://jf8icslg9l-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1596190703404	Marionette	INFO	Stopped listening on port 57062
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596191362162	geckodriver	INFO	Listening on 127.0.0.1:57872
+1596191371574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Akshay\\AppData\\Local\\Temp\\rust_mozprofile0kFTUU"
+[Parent 13848, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1596191375395	Marionette	INFO	Listening on port 57892
+1596191377379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://wdrr2nelk2-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ijj2pu4b6kg-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://wdrr2nelk2-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ijj2pu4b6kg-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+[Parent 13848, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1596191399900	Marionette	INFO	Stopped listening on port 57892
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
