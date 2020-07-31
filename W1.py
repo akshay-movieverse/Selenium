@@ -9,8 +9,8 @@ options.headless = True
 
 profile = FirefoxProfile(r"./Test")
 
-#options.add_argument("--user-data-dir=selenium")
-browser = webdriver.Firefox(profile,options=options,executable_path='geckodriver.exe')
+options.binary_location=os.environ.get("FIREFOX_BIN")
+browser = webdriver.Firefox(profile,options=options,executable_path=os.environ.get("GECKODRIVER_PATH")')
 browser.get("https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk6LAlSB#scrollTo=1oyhP-htn0J4")
 
 
