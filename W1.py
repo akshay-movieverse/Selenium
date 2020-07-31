@@ -10,9 +10,9 @@ cap = DesiredCapabilities().FIREFOX
 cap["marionette"] = True
 
 options = Options()
-options.headless = True
+#options.headless = True
 #options.add_argument('--profile-directory=Default')
-options.add_argument("--headless")
+#options.add_argument("--headless")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--no-sandbox")
 
@@ -27,13 +27,18 @@ browser.get("https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk
 print("workin")
 
 
-time.sleep(10)
+time.sleep(20)
             
 
 clickElement=browser.find_element_by_xpath("/html/body")
                 
 clickElement.send_keys(Keys.CONTROL + Keys.F9 )
-time.sleep(25)
+time.sleep(35)
+clickElement=browser.find_element_by_xpath("/html/body/div[7]/div[2]/div[1]/div/colab-toolbar-button[1]")
+                
+clickElement.click()
+
+time.sleep(10)
 print("Success")
 time.sleep(2)
 browser.quit()
