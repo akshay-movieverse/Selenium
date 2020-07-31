@@ -23,17 +23,18 @@ options.binary=os.environ.get("FIREFOX_BIN")                     #os.environ.get
 browser = webdriver.Firefox(profile,capabilities=cap,options=options,executable_path=os.environ.get("GECKODRIVER_PATH"))
 browser.get("https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk6LAlSB#scrollTo=1oyhP-htn0J4")
 
-
+with open("E.txt",'r') as f:
+   print(f.read())
 print("workin")
 
 
-time.sleep(50)
+time.sleep(20)
             
 
 clickElement=browser.find_element_by_xpath("/html/body")
                 
 clickElement.send_keys(Keys.CONTROL + Keys.F9 )
-time.sleep(30)
+time.sleep(10)
 
 
 print(browser.current_url )
