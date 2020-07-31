@@ -3,14 +3,18 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 import time
 from selenium.webdriver.firefox.webdriver import FirefoxProfile
+import os
 options = Options()
 options.headless = True
 #options.add_argument('--profile-directory=Default')
+options.add_argument("--headless")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--no-sandbox")
 
 profile = FirefoxProfile(r"./Test")
 
 options.binary_location=os.environ.get("FIREFOX_BIN")
-browser = webdriver.Firefox(profile,options=options,executable_path=os.environ.get("GECKODRIVER_PATH")')
+browser = webdriver.Firefox(profile,options=options,executable_path=os.environ.get("GECKODRIVER_PATH"))
 browser.get("https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk6LAlSB#scrollTo=1oyhP-htn0J4")
 
 
