@@ -19,7 +19,7 @@ options.add_argument("--no-sandbox")
 profile = FirefoxProfile(r"./Test")
 # binary=r"C:\Program Files\Mozilla Firefox\firefox.exe"
 # options.binary=binary
-options.binary=os.environ.get("FIREFOX_BIN")
+options.binary=os.environ.get("FIREFOX_BIN")                     #os.environ.get("GECKODRIVER_PATH")
 browser = webdriver.Firefox(profile,capabilities=cap,options=options,executable_path=os.environ.get("GECKODRIVER_PATH"))
 browser.get("https://colab.research.google.com/drive/1WOuGTFKaifStm16Cat5xQYYOHk6LAlSB#scrollTo=1oyhP-htn0J4")
 
@@ -34,6 +34,7 @@ clickElement=browser.find_element_by_xpath("/html/body")
                 
 clickElement.send_keys(Keys.CONTROL + Keys.F9 )
 time.sleep(35)
+print(browser.page_source)
 clickElement=browser.find_element_by_xpath("/html/body/div[7]/div[2]/div[1]/div/colab-toolbar-button[1]")
                 
 clickElement.click()

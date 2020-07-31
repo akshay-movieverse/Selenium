@@ -154,3 +154,15 @@ JavaScript warning: https://uorfz004a69-496ff2e9c6d22116-0-colab.googleuserconte
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1596204863794	geckodriver	INFO	Listening on 127.0.0.1:56379
+1596204873708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--headless" "--disable-dev-shm-usage" "--no-sandbox" "-foreground" "-no-remote" "-profile" "C:\\Users\\Akshay\\AppData\\Local\\Temp\\rust_mozprofileG5tKca"
+*** You are running in headless mode.
+1596204874792	Marionette	INFO	Listening on port 56394
+1596204875217	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://7mjr6z800o7-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ze1n5o5ix0d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ze1n5o5ix0d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ze1n5o5ix0d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ze1n5o5ix0d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://ze1n5o5ix0d-496ff2e9c6d22116-0-colab.googleusercontent.com/outputframe.html?vrz=colab-20200729-085601-RC00_323787940, line 150: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1596204957516	Marionette	INFO	Stopped listening on port 56394
